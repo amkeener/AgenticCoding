@@ -1,0 +1,1 @@
+/classify_issue {"number":7,"title":"Final Test - ADW Webhook","body":"Testing the complete webhook flow with adw_plan\n\nThis should trigger the planning workflow successfully."}

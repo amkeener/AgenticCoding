@@ -1,0 +1,6 @@
+{
+  "tests/core/test_llm_processor.py::TestLLMProcessor::test_generate_sql_openai_key_priority": true,
+  "tests/core/test_llm_processor.py::TestLLMProcessor::test_generate_sql_anthropic_fallback": true,
+  "tests/core/test_llm_processor.py::TestLLMProcessor::test_generate_sql_both_keys_openai_priority": true,
+  "tests/core/test_llm_processor.py::TestLLMProcessor::test_generate_sql_only_openai_key": true
+}

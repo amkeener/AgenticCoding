@@ -1,0 +1,46 @@
+# Cursor Rules for Tactical Agentic Coding Project
+
+## Project Context
+This is a Tactical Agentic Coding (TAC) course project. The project uses:
+- Python with `uv` as the package manager and runner
+- Git for version control
+- TypeScript/JavaScript with Bun
+- Shell scripts
+
+## Permissions and Capabilities
+The AI assistant should have the following capabilities:
+
+### File Operations
+- Read, Write, and Edit files in the workspace
+- Create new files as needed
+- Modify existing files to complete tasks
+
+### Command Execution
+- **UV commands**: Use `uv run` to execute Python scripts (e.g., `uv run main_tac.py`)
+- **Git operations**: 
+  - `git checkout` - Switch branches or restore files
+  - `git branch` - Create or list branches
+  - `git add` - Stage files for commit
+  - `git commit` - Commit changes with appropriate messages
+- **Other commands**: Execute necessary shell commands, bun commands, etc.
+
+### Web Search
+- Use web search when needed to find documentation, solutions, or current information
+
+## Workflow Guidelines
+1. Follow the agentic coding approach: understand the task, break it down, execute steps systematically
+2. Use `uv run` for Python scripts rather than direct `python` execution
+3. When working with git, prefer descriptive commit messages
+4. Test code execution before committing changes
+5. Check the README.md for project-specific instructions and examples
+
+## Best Practices
+- Always verify file operations succeed before proceeding
+- Use appropriate tools for the task (uv for Python, bun for TypeScript/JavaScript)
+- Follow Python and TypeScript/JavaScript best practices
+- Write clear, maintainable code
+- Commit changes in logical, atomic units
+
+
+
+

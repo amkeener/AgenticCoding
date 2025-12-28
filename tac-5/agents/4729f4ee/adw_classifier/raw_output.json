@@ -1,0 +1,193 @@
+[
+  {
+    "type": "system",
+    "subtype": "init",
+    "cwd": "/Users/andrewkeener/Documents/AgenticCoding/tac-5/adws",
+    "session_id": "0b749078-ddcc-4d3f-8dc5-26f6847b50c6",
+    "tools": [
+      "Task",
+      "TaskOutput",
+      "Bash",
+      "Glob",
+      "Grep",
+      "ExitPlanMode",
+      "Read",
+      "Edit",
+      "Write",
+      "NotebookEdit",
+      "WebFetch",
+      "TodoWrite",
+      "WebSearch",
+      "KillShell",
+      "AskUserQuestion",
+      "Skill",
+      "EnterPlanMode",
+      "mcp__playwright__browser_close",
+      "mcp__playwright__browser_resize",
+      "mcp__playwright__browser_console_messages",
+      "mcp__playwright__browser_handle_dialog",
+      "mcp__playwright__browser_evaluate",
+      "mcp__playwright__browser_file_upload",
+      "mcp__playwright__browser_fill_form",
+      "mcp__playwright__browser_install",
+      "mcp__playwright__browser_press_key",
+      "mcp__playwright__browser_type",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_navigate_back",
+      "mcp__playwright__browser_network_requests",
+      "mcp__playwright__browser_run_code",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_drag",
+      "mcp__playwright__browser_hover",
+      "mcp__playwright__browser_select_option",
+      "mcp__playwright__browser_tabs",
+      "mcp__playwright__browser_wait_for"
+    ],
+    "mcp_servers": [
+      {
+        "name": "playwright",
+        "status": "connected"
+      }
+    ],
+    "model": "claude-sonnet-4-5-20250929",
+    "permissionMode": "bypassPermissions",
+    "slash_commands": [
+      "implement",
+      "generate_branch_name",
+      "find_plan_file",
+      "install",
+      "bug",
+      "pull_request",
+      "chore",
+      "prime",
+      "commit",
+      "start",
+      "feature",
+      "tools",
+      "classify_issue",
+      "implement",
+      "generate_branch_name",
+      "find_plan_file",
+      "test_e2e",
+      "install",
+      "resolve_failed_e2e_test",
+      "classify_adw",
+      "resolve_failed_test",
+      "bug",
+      "pull_request",
+      "chore",
+      "prime",
+      "commit",
+      "start",
+      "feature",
+      "test",
+      "tools",
+      "classify_issue",
+      "e2e:test_basic_query",
+      "e2e:test_complex_query",
+      "e2e:test_sql_injection",
+      "compact",
+      "context",
+      "cost",
+      "init",
+      "pr-comments",
+      "release-notes",
+      "review",
+      "security-review"
+    ],
+    "apiKeySource": "none",
+    "claude_code_version": "2.0.76",
+    "output_style": "default",
+    "agents": [
+      "general-purpose",
+      "statusline-setup",
+      "Explore",
+      "Plan"
+    ],
+    "skills": [],
+    "plugins": [],
+    "uuid": "32e2dbd6-1e38-4dcc-860d-96b449c9ffc3"
+  },
+  {
+    "type": "assistant",
+    "message": {
+      "model": "claude-sonnet-4-5-20250929",
+      "id": "msg_01UAq69gYMFVHk8Uvu1PGwnt",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "Looking at the text provided, I can extract the following ADW workflow information:\n\n```json\n{\n  \"adw_slash_command\": \"/adw_plan\"\n}\n```\n\nThe text mentions \"adw_plan\" which corresponds to the `/adw_plan` command (Planning only workflow). No ADW ID was found in the text."
+        }
+      ],
+      "stop_reason": null,
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 3,
+        "cache_creation_input_tokens": 10586,
+        "cache_read_input_tokens": 12673,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 10586,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 1,
+        "service_tier": "standard"
+      },
+      "context_management": null
+    },
+    "parent_tool_use_id": null,
+    "session_id": "0b749078-ddcc-4d3f-8dc5-26f6847b50c6",
+    "uuid": "88068b94-9e48-45ac-a950-dc2f107f85a8"
+  },
+  {
+    "type": "result",
+    "subtype": "success",
+    "is_error": false,
+    "duration_ms": 4034,
+    "duration_api_ms": 9225,
+    "num_turns": 1,
+    "result": "Looking at the text provided, I can extract the following ADW workflow information:\n\n```json\n{\n  \"adw_slash_command\": \"/adw_plan\"\n}\n```\n\nThe text mentions \"adw_plan\" which corresponds to the `/adw_plan` command (Planning only workflow). No ADW ID was found in the text.",
+    "session_id": "0b749078-ddcc-4d3f-8dc5-26f6847b50c6",
+    "total_cost_usd": 0.046922399999999996,
+    "usage": {
+      "input_tokens": 3,
+      "cache_creation_input_tokens": 10586,
+      "cache_read_input_tokens": 12673,
+      "output_tokens": 80,
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 10586
+      }
+    },
+    "modelUsage": {
+      "claude-haiku-4-5-20251001": {
+        "inputTokens": 1074,
+        "outputTokens": 228,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "webSearchRequests": 0,
+        "costUSD": 0.002214,
+        "contextWindow": 200000
+      },
+      "claude-sonnet-4-5-20250929": {
+        "inputTokens": 3,
+        "outputTokens": 80,
+        "cacheReadInputTokens": 12673,
+        "cacheCreationInputTokens": 10586,
+        "webSearchRequests": 0,
+        "costUSD": 0.044708399999999995,
+        "contextWindow": 200000
+      }
+    },
+    "permission_denials": [],
+    "uuid": "45f44062-8f8e-4282-9022-3455aaf6934e"
+  }
+]

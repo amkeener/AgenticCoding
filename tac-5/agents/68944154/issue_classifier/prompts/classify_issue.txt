@@ -1,0 +1,1 @@
+/classify_issue {"number":6,"title":"Test ADW with API Key","body":"Testing the full workflow with adw_plan\n\nPlease analyze this repository and create a simple plan."}

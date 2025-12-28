@@ -1,0 +1,3 @@
+/classify_adw Testing the complete webhook flow with adw_plan
+
+This should trigger the planning workflow successfully.

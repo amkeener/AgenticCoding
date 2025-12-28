@@ -1,0 +1,4 @@
+print("goodbye ai coding")
+
+
+

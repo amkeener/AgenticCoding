@@ -1,0 +1,3 @@
+/classify_adw Test with claude path fix: adw_plan
+
+Please create a simple plan.

@@ -1,0 +1,10 @@
+/classify_adw 994171ed_ops: 🔍 Using state
+```json
+{
+  "adw_id": "994171ed",
+  "issue_number": "6",
+  "branch_name": null,
+  "plan_file": null,
+  "issue_class": null
+}
+```
