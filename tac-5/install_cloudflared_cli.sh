@@ -66,3 +66,4 @@ echo "If the command is not found, restart your terminal or run:"
 echo "   source ~/.zshrc"
 
 
+
